@@ -1,0 +1,81 @@
+body{
+	background: #3F2626 !important;
+}
+.login-info{
+	position: fixed;
+	top:20px;
+	right: 15px;
+}
+.wrapper{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+.panel{
+	width: 70%;
+	background: #3F2626;
+	padding: 25px;
+}
+.tag-title{
+	background: #3F2626;
+	display: block;
+	text-align: center;
+	color: white !important;
+	font-weight: bold;
+	cursor: pointer;
+}
+.tag-content{
+	padding: 25px;
+}
+.modal-title, .modal-body{
+	color: black;
+}
+.modal-body img{
+	max-width: 100%;
+}
+label{
+	color: white;
+}
+.a-icon-edit:hover{
+	cursor: pointer;
+	color: #A9EB37;
+}
+.a-icon-delete:hover{
+	cursor: pointer;
+	color: #F22929;
+}
+.a-icon-up:hover{
+	cursor: pointer;
+	color: #FC794E;
+}
+.a-icon-down:hover{
+	cursor: pointer;
+	color: #666666;
+}
+.c-icon-view:hover{
+	cursor: pointer;
+	color: #20A1CC;
+}
+.c-icon-delete:hover{
+	cursor: pointer;
+	color: #F22929;
+}
+.non-case{
+	width: 100%;
+	text-align: center;
+}
+.carousel{
+	width: 100%;
+	height: 150px;
+	text-align: center;
+}
+.carousel>img{
+	width: 400px;
+	height: 150px;
+}
+.carousel>img:hover{
+	opacity: .2;
+	cursor: pointer;
+}

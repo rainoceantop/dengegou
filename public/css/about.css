@@ -1,0 +1,28 @@
+::-webkit-scrollbar{
+	display: none;
+}
+.page-title{
+	margin-top: 30px;
+}
+.about-wrap{
+	padding: 35px;
+}
+.about-navbar{
+	text-align: center;
+}
+.about-navbar>.active{
+	color: white;
+	font-weight: bold;
+	background: gray;
+}
+.about-scrollbar{
+	height: 500px;
+	overflow-y: scroll;
+}
+.list-group-item{
+	position: static;
+	display: inline;
+	border: none;
+	width:50%;
+	align-self: center;
+}

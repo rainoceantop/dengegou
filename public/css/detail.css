@@ -1,0 +1,22 @@
+.wrapper{
+	padding:50px;
+}
+.artical-body{
+	background: #F2EFF1;
+	padding: 30px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+.artical-body:hover{
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+}
+.artical-body img{
+	max-width: 100%;
+}
+@media(max-width: 750px){
+.wrapper{
+	padding:10px;
+}
+.artical-body{
+	padding: 7px;
+}
+}

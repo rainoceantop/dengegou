@@ -1,0 +1,36 @@
+.page-title{
+	margin-top: 30px;
+}
+.news-list{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+.news-body{
+	margin-bottom: 30px;
+}
+.news-body>a{
+	text-decoration: none;
+	color: black;
+}
+.news-body>a:hover{
+	text-decoration: underline;
+}
+.pagination{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.pagination>li{
+	padding: 5px 10px;
+	background: gray;
+	font-size: 20px;
+}
+.pagination>li>a{
+	color: white;
+}
+.pagination>li>a:hover{
+	color: orange;
+	text-decoration: none;
+}
